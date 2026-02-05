@@ -30,6 +30,8 @@ import net.minecraftforge.registries.RegistryObject;
 import com.igggosha.morereactions.RegisterReactions;
 import org.slf4j.Logger;
 
+import java.util.function.Supplier;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ExampleMod.MODID)
 public class ExampleMod
@@ -74,8 +76,16 @@ public class ExampleMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+        // african code for african mod loader
+        event.enqueueWork(new Runnable() {
+            @Override
+            public void run() {
 
-        RegisterReactions.register();
+                RegisterReactions.register();
+
+            }
+        });
+
     }
 
     // Add the example block item to the building blocks tab
