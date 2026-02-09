@@ -1,0 +1,10 @@
+{
+  "morereactions.generic_reaction.amide_condensation": "[destroy:amide]缩合 (伯胺)",
+  "morereactions.generic_reaction.amide_condensation.description": "一个[destroy:carboxylic_acid]与一个[destroy:amine]发生的{缩聚反应, destroy:condensation_polymer}。反应需要压力和热量 （>373K）。",
+  "morereactions.generic_reaction.ammonia_amide_condensation": "[destroy:amide]缩合 (氨)",
+  "morereactions.generic_reaction.ammonia_amide_condensation.description": "一个[destroy:carboxylic_acid]与一个[destroy:ammonia]发生的{缩聚反应, destroy:condensation_polymer}。反应需要压力和热量 （>373K）。",
+
+  "morereactions.generic_reaction.friedel_crafts_alkylation": "傅-克烷基化反应",
+  "morereactions.generic_reaction.friedel_crafts_alkylation.description": "[destroy:benzene]与卤代烷的傅-克烷基化反应，可有效形成碳-碳{键, destroy:bond}。 反应不模拟碳正离子重排。"
+
+}
